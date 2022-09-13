@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-09-13T16:39:58.180Z" agent="5.0 (Windows)" version="16.5.1" etag="FW7sz1TZblOYFA5Y-ZO4" type="github"><diagram id="_Vxz8Yq0EqSx3GSfOWIa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-13T20:39:54.939Z" agent="5.0 (Windows)" etag="RELEbGKuSHtUXeFp0bcg" version="16.5.1" type="github">
+  <diagram id="_Vxz8Yq0EqSx3GSfOWIa" name="Page-1">
+    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-1" value="Boot Section" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-3" value="FAT 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-4" value="FAT 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-5" value="Root Directory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-6" value="Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-7" target="LFPvP2h6S6XEyQbVQH9w-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-7" value="The Boot Section of the FAT architecture is where all the offsets, section sizes, and pointers to directories are stored" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="285" y="335" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-13" target="LFPvP2h6S6XEyQbVQH9w-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-13" value="Reserved section of the drive where only the BIOS acesses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="355" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-15" target="LFPvP2h6S6XEyQbVQH9w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-15" value="FAT 1 a list of arrays that record which clusters store the info for each file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-17" target="LFPvP2h6S6XEyQbVQH9w-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-17" value="FAT 2 is a copy of FAT 1 as a backup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="378" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-19" target="LFPvP2h6S6XEyQbVQH9w-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-19" value="The Root Directory is where the hierarchy of files are stored" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="220" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LFPvP2h6S6XEyQbVQH9w-21" target="LFPvP2h6S6XEyQbVQH9w-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LFPvP2h6S6XEyQbVQH9w-21" value="Where all the clusters that contain the data for the files are stored" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="378" width="190" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
