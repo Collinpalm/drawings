@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T15:19:42.344Z" agent="5.0 (Windows)" etag="r3zR3-NMqoGkrQNuWyTK" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T15:41:40.814Z" agent="5.0 (Windows)" etag="aYLF2sMd341Jsjbr-B_E" version="20.3.3" type="github">
   <diagram id="CslgPmcmwdVkwZHx8b5c" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,19 +15,19 @@
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hbxsilxib6MLBgu_tOjK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="150" y="600" as="sourcePoint" />
+            <mxPoint x="150" y="680" as="sourcePoint" />
             <mxPoint x="450" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hbxsilxib6MLBgu_tOjK-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="593" y="600" as="sourcePoint" />
+            <mxPoint x="593" y="680" as="sourcePoint" />
             <mxPoint x="610" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="hbxsilxib6MLBgu_tOjK-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="600" as="sourcePoint" />
+            <mxPoint x="1160" y="680" as="sourcePoint" />
             <mxPoint x="1190" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -37,7 +37,7 @@
             <mxPoint x="590" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hbxsilxib6MLBgu_tOjK-9" value="EmployeeClockIn(employeeRecord e, time t1)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="hbxsilxib6MLBgu_tOjK-9" value="EmployeeClockIn(employeeID e, time t1)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="320" y="150" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -49,7 +49,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hbxsilxib6MLBgu_tOjK-12" value="EmployeeClockOut(employeeRecord e, time t2)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+        <mxCell id="hbxsilxib6MLBgu_tOjK-12" value="EmployeeClockOut(employeeID e, time t2)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="325" y="220" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -96,6 +96,60 @@
         </mxCell>
         <mxCell id="hbxsilxib6MLBgu_tOjK-24" value="return(sucess code s)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="325" y="260" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="445" as="sourcePoint" />
+            <mxPoint x="590" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-26" value="GetCurrentTimeStatus(employeeID e)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="325" y="405" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="479" as="sourcePoint" />
+            <mxPoint x="150" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-28" value="return(TimeRecord tr)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="325" y="445" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="525" as="sourcePoint" />
+            <mxPoint x="590" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-30" value="GetTotalTimeStatus(employeeID e)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="325" y="485" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="559" as="sourcePoint" />
+            <mxPoint x="150" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-32" value="return(int i)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="325" y="525" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="591" as="sourcePoint" />
+            <mxPoint x="1160" y="591" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-34" value="getEmployeeTimeRecord(employeeID e)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="830" y="551" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="631" as="sourcePoint" />
+            <mxPoint x="590" y="631" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbxsilxib6MLBgu_tOjK-36" value="return(employeeRecord er)" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="840" y="601" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
