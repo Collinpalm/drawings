@@ -1,1 +1,43 @@
-<mxfile modified="2022-10-07T01:11:19.727Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="aGkfhuVoFjjHRpMDdETO" version="20.4.0" type="github"><diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">7Zldb5swFIZ/DZebwAaSXKakzbotU7eoa3s1eeCCNYJT4ySkv36mmPDhVk0RCXSLlAufY/vYfs8TY4MGnUUyZWgZzKiHQw3oXqLBiQaAYQKgpT/d22aewVDPHD4jnmxUOObkEUtn3mxFPBxXGnJKQ06WVadLowi7vOJDjNFNtdk9DaujLpGPFcfcRaHqvSEeD6TXsEdFxSdM/EAOPQSDrGKB8sZyJXGAPLopueC5Bh1GKc9Ki8TBYSperkvW7+KF2t3EGI74Ph0SuA2c2eVqljw8fvvzZeKsbPZBRlmjcCUXfDmeyfnybS7CJiAcz5fITe2NSLQGzwK+CIVliCKKl5n09yTBYrQzdWr5OJhxnJRccqpTTBeYs61oImst08q6SG5Mw8zsTZGFHKWgrL/0IZl3fxe5kEYUpDpvUAooSo29BYniPohlg6pYVv7v6UosqIjlhESsT6h1cR1j1gvVzIHeL9VMRbX5g9j+hMtBbkAivxeqwapqQO9YNUtR7eeV0wel6lsY7FopW+WLhkx45hgxN+iDZrbdM7oGimaz7fz7V+GaII5+oxj3QbY6ap3LNlRkU2TCkTdOD2jCckMUx8St6sToKvJSgSa6sHBC+G1a/mhJ665UM0nKxjY3IrGUUqfUvJPRn4yi25OV93sxITFdMRe/fpziiPmYv75nYa9y+FTTW0qf9Uz6ch/DIeJkXT2yPpdTOcIVJWJlO3qgWf3TQauGRbZu2at8xKwHGtUC6bVAmTBKoCfEdstuTt3o/6TO2pO6Qb+pM1uiDoyOS11+bGwfO6MM3Q7B94adfcLuINipd/e2drsm2Bll6EoMto6dfdrtOsVOfRHS6W53LOzMfwM72BZ29avDobFTXyl1udv17iFrnrA7CHbqO5O2sGtypTjaQxbsiZ3Ra+ysphdZuxbIrAdqDzuf3/76zPl6AyD4AYfh4/RGf+azzH7UxWJe/C0wNnyMNoG4OYzwXcK4YyZnaNAQRkuvBQJtwSjM4vtj1rz4igvP/wI=</diagram></mxfile>
+<mxfile modified="2022-10-07T01:17:36.942Z" host="app.diagrams.net" agent="5.0 (Windows)" etag="h05hf6OFCv7eR5-C-Rvz" version="20.4.0" type="github">
+  <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
+    <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uldsZnPX9eDE-N866URu-5" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="180" width="530" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="x3yhCMIuMxqzNkKDCu6r-4" value="Squid Caching" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="420" y="272" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x3yhCMIuMxqzNkKDCu6r-6" value="Solr Search" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="670" y="272" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x3yhCMIuMxqzNkKDCu6r-7" value="MySQL Database" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="545" y="272" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="x3yhCMIuMxqzNkKDCu6r-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x3yhCMIuMxqzNkKDCu6r-6" target="x3yhCMIuMxqzNkKDCu6r-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="412" as="sourcePoint" />
+            <mxPoint x="390" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3yhCMIuMxqzNkKDCu6r-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="x3yhCMIuMxqzNkKDCu6r-4" target="x3yhCMIuMxqzNkKDCu6r-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="402" as="sourcePoint" />
+            <mxPoint x="390" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uldsZnPX9eDE-N866URu-2" value="clients/users" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="470" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uldsZnPX9eDE-N866URu-3" value="Admins" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="470" width="100" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="uldsZnPX9eDE-N866URu-7" value="IAM Portal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="450" width="85" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
